@@ -1,0 +1,81 @@
+
+html{
+    font-size: 1rem;
+}
+html body{ margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    background: url("image/pattern\ \(4\).png");
+    flex-flow: column;
+
+
+
+
+}
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(173,151,239,0.8);
+    margin:  200px auto;
+    position: relative;
+    border-radius: 75px;
+    display: flex;
+
+}
+.badge{
+    min-width: 100px;
+    line-height: 28px;
+    text-align: center;
+    position: absolute;
+    border-radius: 100px;
+    background-color: rgba(255, 230, 0, 0.9); 
+    border:ridge 2px rgba(65, 38, 0, 0.326);
+    font-size: 1rem;
+    font-family:'Press Start 2P', cursive;
+    color: rgba(64, 0, 80, 0.849);
+    font-weight: 700;
+    text-transform: uppercase;
+    top:-13px;
+    right: 36%;
+}
+.clock{
+    background-color: rgba(255,255,245,0.3);
+    width: 80%;
+    height: 70%;
+    border-radius: 50px;
+    font-size: 2.5rem;
+    margin: auto;
+    font-family:'Press Start 2P', cursive;
+    display: flex;
+}
+.time{margin: auto;
+    color: rgba(64, 0, 80, 0.849);
+
+}
+#music{
+    width: 60vw;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    f
+
+}
+
+@media (max-width:600px){
+   html body{ height: 100%;
+
+    }
+    .clock{font-size: 1.8rem;
+
+    }
+    .container{
+        width: 350px;
+        height: 175px;}
+
+    
+    
+    
+
+}
